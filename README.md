@@ -4,7 +4,21 @@
 - **2.รัน npm test**
 - **3.คอมไพล์ typeScript โดยรัน npm run build**
 - **4.หลังจาก build แล้ว สามารถรันโคิดที่คอมไพล์แล้วได้ด้วย node dist/merge.js หรือหากต้องการรันไฟล์อื่นสามารถเปลี่ยน Path ตามความต้องการได้**
+- **โครงสร้างโค้ดโปรเจกต์**
+- ts-merge-project/
+│ package.json
+│ tsconfig.json
+│ jest.config.js
+│ README.md
+│
+├── src/
+│   └── merge.ts
+│
+└── test/
+    └── merge.test.ts
+
   
+
 
 
 
